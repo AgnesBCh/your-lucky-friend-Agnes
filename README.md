@@ -12,3 +12,11 @@
 <li>Mostrar mensaje de resultados</li>
 
 <p> A continuación una demostración del juego</p>
+
+
+![image](https://github.com/user-attachments/assets/657d5deb-3a6c-4829-aac8-db89f3c5e927)
+![image](https://github.com/user-attachments/assets/5c7388f0-440e-4a75-a6b1-65224f238fbf)
+![image](https://github.com/user-attachments/assets/99bd8be6-91fc-493c-9a8b-14faa66d8032)
+![image](https://github.com/user-attachments/assets/8d58ccfe-0388-46d3-a237-2cd20a76bbc0)
+
+
