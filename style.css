@@ -6,6 +6,9 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-button-2: #f3db55d2;
+    --color-button-2-hover: #ffd900;
+
 }
 
 /* Estilos generales */
@@ -91,6 +94,20 @@ body {
     width: 300px;
     justify-content: center;
 }
+/* Estilos para el input de cantidad */
+.input-number {
+    width: 120px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
 
 /* Estilos de entrada de texto */
 .input-title {
@@ -133,7 +150,27 @@ ul {
     font-size: 18px;
     margin: 20px 0;
 }
+.amigo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
 
+.boton-eliminar {
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.boton-eliminar:hover {
+    color: darkred;
+}
 .result-list {
     margin-top: 15px;
     color: #05DF05;
@@ -160,3 +197,23 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Botón de Limpiar la lista de amigos */
+.button-draw-limpiar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-text);
+    background-color: var(--color-button-2);
+    font-size: 16px;
+}
+
+.button-draw-limpiar img {
+    margin-right: 40px;
+}
+
+.button-draw-limpiar:hover {
+    background-color: var(--color-button-2-hover);
+}
+
