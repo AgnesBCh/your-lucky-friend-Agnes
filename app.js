@@ -47,6 +47,7 @@ function eliminarAmigo(index) {
 
 function limpiarInput() {
     document.getElementById("amigo").value = "";
+    document.getElementById("cantidad").value = "";
 }
 
 function limpiarLista() {
@@ -76,6 +77,7 @@ function sortearAmigo() {
     let amigosSorteados = obtenerSorteo(amount);
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = amigosSorteados.map(amigo => `<li>🎉 ${amigo} ha sido seleccionado! 🎉</li>`).join("");
+    limpiarInput();
     
 }
 
