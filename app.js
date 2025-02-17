@@ -33,7 +33,7 @@ function actualizarLista() {
         let botonEliminar = document.createElement("span");
         botonEliminar.textContent = "×";
         botonEliminar.classList.add("boton-eliminar");
-        botonEliminar.onclick = () => eliminarAmigo(index); // CORREGIDO
+        botonEliminar.onclick = () => eliminarAmigo(index);
 
         li.appendChild(botonEliminar);
         lista.appendChild(li);
